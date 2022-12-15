@@ -4,10 +4,10 @@ import { SERVICES_LEFT, SERVICES_RIGHT } from "./constant";
 
 export default function About() {
 	return (
-		<div className="container mx-auto my-10">
+		<div id="about" className="container mx-auto my-10">
 			<section className="flex justify-between">
-				<div className="flex flex-col">
-					<h4 className="text-3xl font-bold">Gbikna Limited.</h4>
+				<div className="flex flex-col space-y-2">
+					<h4 className="text-3xl font-bold">Quitobit</h4>
 					<h5 className="text-lg ">We offer the following services: </h5>
 					<div className="flex flex-col gap-3">
 						{SERVICES_LEFT.map((item) => (

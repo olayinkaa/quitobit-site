@@ -35,7 +35,7 @@ export default function Footer() {
 			</div>
 			<div className="bg-black text-white py-6">
 				<div className="flex justify-center">
-					<p>&copy; Copyright Gbikna. All Rights Reserved</p>
+					<p>&copy; Copyright Quitobit. All Rights Reserved</p>
 				</div>
 			</div>
 		</>

@@ -3,7 +3,7 @@ import { HERO_ITEMS } from "./constant";
 
 const Hero = () => {
 	return (
-		<div className="flex items-center justify-center h-screen mb-12 bg-fixed bg-center custom-img">
+		<div id="/" className="flex items-center justify-center h-screen mb-12 bg-fixed bg-center custom-img">
 			<div className="absolute inset-0 bg-black/70 z-[2]" />
 			<div className="container mx-auto z-[2] flex flex-col mt-10">
 				<div className="text-white text-center">
